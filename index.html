@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Events in History</h1>
+        <div class="inputs">
+            <fieldset class="date">
+                <legend>Choose a month (i.e. 1 for January)</legend>
+                <input type="number" id="month" max="12">
+            </fieldset>
+            <fieldset class="date">
+                <legend>Choose a day (i.e., 2 for the 2nd)</legend>
+                <input type="number" id="day" max="31">
+            </fieldset>
+            <fieldset class="submit">
+                <legend>Click to see the day's events in history</legend>
+                <button id="submit">Submit</button>
+            </fieldset>
+        </div>
+        <div id="this-day"></div>
+        <div class="events" id="events"></div>
+    <script src="script.js"></script>
+</body>
+</html>
