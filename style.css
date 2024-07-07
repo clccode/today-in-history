@@ -14,6 +14,22 @@ button {
     padding: 5px 20px;
 }
 
+input::-webkit-input-placeholder {
+    color: #555555; /* For WebKit browsers (Chrome, Safari) */
+}
+
+input:-moz-placeholder {
+    color: #555555; /* For Firefox 18- */
+}
+
+input::-moz-placeholder {
+    color: #555555; /* For Firefox 19+ */
+}
+
+input:-ms-input-placeholder {
+    color: #555555; /* For Internet Explorer 10+ */
+}
+
 .inputs {
     margin-top: 10px;
 }
