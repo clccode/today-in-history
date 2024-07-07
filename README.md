@@ -1,4 +1,4 @@
-# This Day in History
+# 🌎 This Day in History 🌍
 
 This is a simple app in which you put in the date, click the "Submit" button.  Once you do that, the app should return a list of events on that day.
 
