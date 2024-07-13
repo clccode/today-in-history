@@ -18,7 +18,7 @@ function getEvents() {
         .then(data => {
             const events = data.data.Events;
             const date = data.date;
-            thisDay.innerHTML = `<h2>Events on ${date}</h2>`;
+            thisDay.innerHTML = `<h2>🗓️ Events on ${date} 🗓️</h2>`;
             eventsEl.innerHTML = '';
             events.forEach(event => {
                 const year = event.year;
